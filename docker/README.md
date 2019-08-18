@@ -5,7 +5,7 @@ OS : centos 5.11
 DB : Postgresql 8.1  
 DB名 : postgres  
 アカウント : postgres / password  
-スキーマ : hirarin
+スキーマ : hirarin  
 作成するテーブル : users（ユーザーマスタ）
 
 ## TOM
