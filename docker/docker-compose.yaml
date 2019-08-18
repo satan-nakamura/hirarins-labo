@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  db:
+    build: ./db
+    image: labo-db
+    container_name: labo-db
+    network_mode: "hirarins-labo"
+    ports: 
+      - "15432:5432"
+
+  tom:
+    build: ./tom
+    image: labo-tom
+    container_name: labo-tom
+    network_mode: "hirarins-labo"
+    volumes:
+      - ../legacy-app/legacy-app/target/legacy-app:/opt/apache-tomcat-6.0.53/webapps/legacy-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
