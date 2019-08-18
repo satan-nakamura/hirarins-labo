@@ -42,7 +42,7 @@ docker-compose up -d db && docker-compose up tom
 ### アクセスURL
 http://localhost:8080/legacy-app/sample
 
-利用可能アカウント
+利用可能アカウント  
 user1 / user1  
 user2 / user2  
 user3 / user3  
