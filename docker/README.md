@@ -9,7 +9,7 @@ DB名 : postgres
 作成するテーブル : users（ユーザーマスタ）
 
 ## TOM
-OS : centos 5.11
-JDK : 5
-TOMCAT : 6.0.53
+OS : centos 5.11  
+JDK : 5  
+TOMCAT : 6.0.53  
 
