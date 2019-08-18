@@ -43,9 +43,9 @@ docker-compose up -d db && docker-compose up tom
 http://localhost:8080/legacy-app/sample
 
 利用可能アカウント
-user1 / user1
-user2 / user2
-user3 / user3
+user1 / user1  
+user2 / user2  
+user3 / user3  
 
 ## 注意事項
 visual studio codeで開発したため、eclipseなどでちゃんとビルドできるかは未確認
